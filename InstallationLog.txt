@@ -1,6 +1,0 @@
-************************************* Invoked: Sun Jun 7 11:36:02 2026
-[0] Arguments: C:\Users\Admin\2D Graphic Editor\msys2-x86_64-20260322.exe, /S, /D=C:\msys64
-[11] Operations sanity check succeeded.
-[11] Warning: Cannot create lock file "C:\Users\Admin\AppData\Local\Temp\msys2-x86_64-202603221234865.lock": The process cannot access the file because it is being used by another process.
- (0x00000020)
-[27] UnableToStart : Unable to start installer : Another msys2-x86_64-20260322 instance is already running. Wait until it finishes, close it, or restart your system.
