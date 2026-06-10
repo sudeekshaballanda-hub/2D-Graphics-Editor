@@ -1,0 +1,80 @@
+Build a complete C program for a console-based 2D Graphics Editor using only characters '*' and '_' for drawing.
+
+Requirements:
+
+1. Canvas
+
+   * Use a 2D character array to represent the drawing canvas.
+   * Initialize all empty cells with '_'.
+   * Allow configurable canvas size (e.g., 50x50).
+
+2. Shapes
+   Implement functions to draw:
+
+   * Rectangle
+   * Line (using Bresenham's Line Algorithm or similar)
+   * Circle (using Midpoint Circle Algorithm or similar)
+   * Triangle
+
+3. Object Management
+   Create a structure to store each object's information:
+
+   * Object ID
+   * Shape type
+   * Coordinates
+   * Dimensions/parameters
+   * Visibility status
+
+   Maintain an array/list of objects currently present in the picture.
+
+4. Operations
+   Implement menu-driven options:
+
+   * Add Object
+
+     * Add rectangle
+     * Add line
+     * Add circle
+     * Add triangle
+   * Delete Object
+
+     * Delete by Object ID
+   * Modify Object
+
+     * Move object
+     * Resize object
+     * Change coordinates
+   * Display Picture
+   * Clear Canvas
+   * Exit
+
+5. Redrawing Strategy
+
+   * Whenever an object is added, deleted, or modified:
+
+     * Clear the canvas.
+     * Redraw all active objects from the object list.
+   * This ensures correct rendering and easy modification.
+
+6. Display
+
+   * Create a function:
+     void displayPicture(char canvas[][MAX_COLS], int rows, int cols);
+   * Print the canvas neatly to the console.
+
+7. Program Design
+
+   * Use modular functions.
+   * Follow good coding practices.
+   * Add comments explaining major logic.
+   * Use structures and enums where appropriate.
+
+8. Deliverables
+
+   * Complete source code.
+   * Explanation of data structures used.
+   * Explanation of drawing algorithms.
+   * Sample input/output demonstration.
+   * Time and space complexity analysis.
+
+The implementation should be beginner-friendly but well-structured enough for a Data Structures and C Programming project submission.
